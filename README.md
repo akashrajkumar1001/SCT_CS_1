@@ -1,76 +1,86 @@
 # 🔐 Caesar Cipher Tool (Task 01)
 
-This project is part of my Cybersecurity Internship at SkillCraft Technology.
-
-## 📌 Description
-
-A Python-based application that allows users to encrypt and decrypt messages using the Caesar Cipher algorithm. The tool includes a graphical user interface (GUI) built with Tkinter for ease of use.
+🚀 Built as part of my Cybersecurity Internship at SkillCraft Technology
 
 ---
 
-## ⚙️ Features
+## 📌 Overview
 
-* Encrypt text using a shift value
-* Decrypt encrypted text
-* User-friendly GUI
-* Handles uppercase and lowercase letters
-* Preserves spaces and special characters
+This project is a Python-based application that demonstrates the **Caesar Cipher encryption technique** with an interactive graphical user interface (GUI).
+
+It allows users to securely **encrypt and decrypt messages** using a shift-based substitution method.
+
+---
+
+## ✨ Features
+
+* 🔒 Encrypt text using a custom shift value
+* 🔓 Decrypt encrypted messages
+* 🖥️ Interactive GUI for easy use
+* 🔤 Supports uppercase & lowercase letters
+* 🔣 Preserves spaces and special characters
 
 ---
 
 ## 🧠 How It Works
 
-The Caesar Cipher shifts each letter in the message by a fixed number (shift value).
+The Caesar Cipher shifts each letter in the message by a fixed number (called the *shift value*).
 
-Example:
-HELLO → (Shift 3) → KHOOR
+### Example
 
----
-
-## 💻 Technologies Used
-
-* Python
-* Tkinter (GUI)
-
----
-
-## 🚀 How to Run
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/SCT_CS_1.git
+```
+Plaintext : HELLO  
+Shift     : 3  
+Ciphertext: KHOOR  
 ```
 
-2. Navigate to the folder:
+---
 
-```bash
+## 💻 Tech Stack
+
+* **Python**
+* **Tkinter / CustomTkinter (GUI)**
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+
+```
+git clone https://github.com/akashrajkumar1001/SCT_CS_1.git
+```
+
+### 2️⃣ Navigate to the Project Folder
+
+```
 cd SCT_CS_1
 ```
 
-3. Run the program:
+### 3️⃣ Run the Application
 
-```bash
+```
 python main.py
 ```
 
 ---
 
-## 📷 Screenshot
+## 📸 Demo
 
-(Add your GUI screenshot here)
+![App Screenshot](screenshot.png)
 
 ---
 
-## 📌 Future Improvements
+## 📈 Future Improvements
 
-* Add brute-force attack simulation
-* Improve UI design
-* Convert into a web application
+* 🔓 Add brute-force attack simulation
+* 🎨 Enhance UI/UX design further
+* 🌐 Convert into a web-based application
+* 📋 Add copy-to-clipboard functionality
 
 ---
 
 ## 👨‍💻 Author
 
-Akash Rajkumar
+**Akash Rajkumar**
 
